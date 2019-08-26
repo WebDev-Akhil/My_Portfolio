@@ -131,6 +131,7 @@ ul {
 .skills {
     text-align: center;
     margin-bottom: 20em;
+    margin-top: 3em;
 }
 
 .skills p {
@@ -258,9 +259,165 @@ text-align: center;
 }
 
 
+/* @media only screen and (min-width: 768px) {
+   
+} */
 
 
 
+@media only screen 
+   and (max-width : 414px) {
+  
+    body {
+        width: 75%; }
+    
+        .nav {
+            display: flex;
+            align-items: center;
+            height: 25px;
+            margin-top: 10px;
+        }
+
+    
+.navIcons a {
+    margin-left: 10px;
+}
+
+
+.contactMe img {
+    margin-right: 0px;
+}
+ 
+.landingWrapper {
+    display: block;
+    margin-top: 10px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+
+.scroll {
+    
+    bottom: 150px;
+}
+
+.work {
+   
+    margin-bottom: 12em;
+}
+
+.work > .workText {
+    
+    top: 140px;
+}
+
+.work ul li {
+    margin-top: 15px;
+}
+
+
+
+.work2 {
+    
+    margin-bottom: 12em;
+}
+
+.work2 > .workText {
+    
+    top: 120px;
+    
+}
+
+ .work2 ul li {
+    margin-top: 7px;
+} 
+
+}
+
+
+
+
+
+@media only screen 
+   and (max-width : 375px) {
+   
+    .skills {
+        
+        margin-top: 3em;
+    }
+
+    
+    body {
+        width: 90%; }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    
+.navIcons a {
+    margin-left: 10px;
+}
+
+
+.contactMe img {
+    margin-right: 0px;
+}
+ 
+.landingWrapper {
+    display: block;
+    margin-top: 0px;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+
+.scroll {
+    
+    bottom: 0px;
+}
+
+.work {
+   
+    margin-bottom: 12em;
+}
+
+.work > .workText {
+    
+    top: 160px;
+}
+
+.work ul li {
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+
+
+.work2 {
+    
+    margin-bottom: 12em;
+}
+
+.work2 > .workText {
+    
+    top: 135px;
+    
+}
+
+ .work2 ul li {
+    margin-top: 8px;
+    margin-bottom: 18px;
+} 
+
+}
 
 
 
